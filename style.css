@@ -1,0 +1,34 @@
+h1 {
+    color: rgb(11, 10, 12);
+    text-align: center;
+
+}
+.box {
+    background-color: rgba(255, 255, 255, 0.925); /* Жовтий напівпрозорий фон для заголовка */
+  }
+  .box1 {
+    background-color: #f2b885;
+  }
+  p{
+	font-size: 18 px;
+	line-height: 1.4;
+	margin-top: 0.1em;
+	margin-bottom: 0;
+	color: #110a06;
+  }
+  footer{
+	background-color:rgba(255, 255, 255, 0.925);
+	color: #421320;
+	padding: 20 px 0;
+	margin-top: 30 px;
+}
+.img{
+	width: 500px;
+	transform: scale(0.95); transition: .3s;
+	max-width: 35%;
+	
+}
+body {
+    background-color: #e9e570;
+  }
+
