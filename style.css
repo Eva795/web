@@ -38,16 +38,56 @@ h1:hover{
   margin: 20px;
 	
 }
-body {
-    background-color: #e9e570;
-  }
-  ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    float: left;
-    margin-right: 10px;
-  }
+.img3 {
+  width: 370px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  
+}
+.container {
+  width: 800px;
+  margin: 35 auto; /* Центруємо контейнер на сторінці */
+}
+.img {
+  width: 300px;
+  /* Додайте сюди один з описаних вище стилів для центрування */
+}
 
+body {
+  background-color: #e9e570;
+}
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+  margin-right: 10px;
+}
+button {
+  background-color: #4CAF50; /* Зелений колір фону */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /*Встановлює розмір шрифту для тексту всередині кнопки.*/
+  margin: 4px 2px;/*Створює відступи навколо кнопки.*/
+  cursor: pointer; /*Змінює курсор миші на вказівний палець при наведенні на кнопку.*/
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.animate {
+  animation: rotate 2s linear infinite;
+}
